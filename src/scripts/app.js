@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Backbone from 'backbone'
 import init from './init'
-import PatientPage from './views'
+import PatientPage from './views/patientView'
 
 var testOne = 'success'
 
@@ -12,7 +12,7 @@ const app = function() {
   	routes: {
   	"patient": "patientView"
   },
-  patientView = function (){
+  patientView: function (){
   	ReactDOM.render(<PatientPage />, document.querySelector('.container'))
   }
 
