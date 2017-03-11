@@ -20,4 +20,4 @@ const NameInput = React.createClass({
 
 })
 
-export default FormInput
+export default NameInput
