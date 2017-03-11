@@ -19,6 +19,9 @@ const NameInput = React.createClass({
 	}
 
 })
-
+<<<<<<< HEAD
+export default NameInput
+=======
 
 export default FormInput
+>>>>>>> upstream/master

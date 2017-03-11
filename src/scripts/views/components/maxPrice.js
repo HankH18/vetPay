@@ -1,7 +1,7 @@
 import React from 'react'
 import Backbone from 'backbone'
 
-const NameInput = React.createClass({
+const MaxPriceInput = React.createClass({
 	_handleKeyDown: function(evtObj){
 		if(evtObj.keyCode === 13) {
 			evtObj.preventDefault()
@@ -12,7 +12,7 @@ const NameInput = React.createClass({
 	render: function (){
 		return (
 			<div className="form-group">
-				<label for="name">Your Name</label>
+				<label for="name">Maximum Expenditure</label>
 				<input type="Patient Name" className="form-control" placeholder="Full Name" onKeyDown={this._handleKeyDown} />
 			</div>
 			)
@@ -21,4 +21,4 @@ const NameInput = React.createClass({
 })
 
 
-export default FormInput
+export default MaxPriceInput

@@ -19,4 +19,8 @@ const MaxPriceInput = React.createClass({
 	}
 
 })
+<<<<<<< HEAD:src/scripts/views/components/maxPrics.js
+=======
+
+>>>>>>> upstream/master:src/scripts/views/components/maxPrice.js
 export default MaxPriceInput

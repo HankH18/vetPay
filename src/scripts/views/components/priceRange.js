@@ -1,7 +1,7 @@
 import React from 'react'
 import Backbone from 'backbone'
 
-var SubmitButton = React.createClass({
+var PriceRange = React.createClass({
 	function() {
 		return (
 
@@ -9,4 +9,4 @@ var SubmitButton = React.createClass({
 	}
 })
 
-export SubmitButton
+export default PriceRange
