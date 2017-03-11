@@ -20,4 +20,4 @@ const MinPriceInput = React.createClass({
 
 })
 
-export MinPriceInput
+export default MinPriceInput
