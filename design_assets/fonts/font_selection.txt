@@ -1,0 +1,11 @@
+
+CSS-----------------------
+font-family: 'Exo 2', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+ADD THIS LINK TO HTML (fast load time)-----
+<link href="https://fonts.googleapis.com/css?family=Exo+2|PT+Sans|Raleway" rel="stylesheet">
+
+ADD THIS LINK TO HTML (slower load time, more variety)
+<link href="https://fonts.googleapis.com/css?family=Exo+2:400,400i,700,700i|PT+Sans:400,400i,700,700i|Raleway:400,400i,700,700i" rel="stylesheet">

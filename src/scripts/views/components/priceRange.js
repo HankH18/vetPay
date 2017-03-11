@@ -1,7 +1,7 @@
 import React from 'react'
 import Backbone from 'backbone'
 
-var Banner = React.createClass({
+var PriceRange = React.createClass({
 	render: function() {
 		// return (
 
@@ -9,4 +9,4 @@ var Banner = React.createClass({
 	}
 })
 
-export default Banner
+export default PriceRange

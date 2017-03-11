@@ -2,12 +2,36 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Backbone from 'backbone'
 import init from './init'
+import Banner from './views/components/banner'
+import Footer from './views/components/footer'
+import FormInput from './views/components/formInput'
+import Location from './views/components/location'
+import MaxPriceInput from './views/components/maxPrice'
+import MinPriceInput from './views/components/minPrice'
+import PriceRange from './views/components/priceRange'
+import SubmitButton from './views/components/submitButton'
+import PatientView from './views/patientView'
+
+
 
 
 const app = function() {
-  document.querySelector('.container').innerHTML = `<h1>vetPay</h1>`
-}
+  var VetRouter = Backbone.Router.extend({
+    	routes: {
+    	 "patient": "patientView",
+       "*default": "redirect"
+       },
+    patientView: function (){
+    	ReactDOM.render(<PatientView />, document.querySelector('.container'))
+    },
 
+    redirect: function() {
+      location.hash = 'patient'
+    }
+  })
+  new VetRouter
+  Backbone.history.start()
+}
 // x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..
 // NECESSARY FOR USER FUNCTIONALITY. DO NOT CHANGE. 
 export const app_name = init()
