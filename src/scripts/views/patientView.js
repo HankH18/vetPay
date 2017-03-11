@@ -1,9 +1,9 @@
 import React from 'react'
 import Backbone from 'backbone'
-import LocationInput from 'locastion'
-import NameInput from 'formInput'
-import MaxPriceInput from 'maxInput'
-import MinPriceInput from 'minInput'
+import LocationInput from './components/locastion'
+import NameInput from './components/formInput'
+import MaxPriceInput from './components/maxPrics'
+import MinPriceInput from './components/minPrice'
 
 var PatientPage = React.createClass({
 	render: function () {
@@ -17,3 +17,5 @@ var PatientPage = React.createClass({
 			)
 	}
 })
+
+export default PatientPage

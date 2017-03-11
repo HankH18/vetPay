@@ -19,3 +19,4 @@ const MaxPriceInput = React.createClass({
 	}
 
 })
+export default MaxPriceInput

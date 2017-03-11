@@ -19,3 +19,4 @@ const LocationInput = React.createClass({
 	}
 
 })
+export default LocationInput
