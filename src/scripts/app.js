@@ -2,12 +2,20 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Backbone from 'backbone'
 import init from './init'
+import PatientPage from './views'
 
 
 const app = function() {
-  document.querySelector('.container').innerHTML = `<h1>vetPay</h1>`
-}
+  var vetRouter = Backbone.Router.extend({
+  	routes: {
+  	"patient": "patientView"
+  },
+  patientView = function (){
+  	ReactDOM.render(<PatientPage />, document.querySelector('.container'))
+  }
 
+  })
+}
 // x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..
 // NECESSARY FOR USER FUNCTIONALITY. DO NOT CHANGE. 
 export const app_name = init()
