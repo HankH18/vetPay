@@ -1,1 +1,1 @@
-console.error("SyntaxError: /Users/kenjihirabayashi/Desktop/tiy/hackathon/vetPay/src/scripts/views/components/formInput.js: Unexpected token (15:1) while parsing file: /Users/kenjihirabayashi/Desktop/tiy/hackathon/vetPay/src/scripts/views/components/formInput.js");
+console.error("SyntaxError: /Users/kenjihirabayashi/Desktop/tiy/hackathon/vetPay/src/scripts/views/components/banner.js: Unexpected token (8:2) while parsing file: /Users/kenjihirabayashi/Desktop/tiy/hackathon/vetPay/src/scripts/views/components/banner.js");

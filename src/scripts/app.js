@@ -2,8 +2,17 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Backbone from 'backbone'
 import init from './init'
-import PatientPage from './views/patientView'
+import Banner from './views/components/banner'
+import Footer from './views/components/footer'
 import FormInput from './views/components/formInput'
+import Location from './views/components/location'
+import MaxPrice from './views/components/maxPrice'
+import minPrice from './views/components/minPrice'
+import PriceRange from './views/components/priceRange'
+import SubmitButton from './views/components/submitButton'
+import PatientView from './views/patientView'
+
+
 
 var testOne = 'success'
 
