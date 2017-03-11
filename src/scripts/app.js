@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom'
 import Backbone from 'backbone'
 import init from './init'
 
+var testOne = 'success'
+
 
 const app = function() {
   document.querySelector('.container').innerHTML = `<h1>vetPay</h1>`
