@@ -11,7 +11,16 @@ const usersSchema = new mongoose.Schema({
   
    // example of optional fields
   name:      { type: String },
-  createdAt: { type: Date, default: Date.now }
+  createdAt: { type: Date, default: Date.now },
+  serviceReq:{type: String},
+  willingToPay: {
+    max: Number,
+    min:Number
+  },
+  location:{
+    lat:Number,
+    lon:Number
+  }
 
 })
 
