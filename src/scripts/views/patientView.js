@@ -5,7 +5,7 @@ import NameInput from './components/formInput'
 import MaxPriceInput from './components/maxPrics'
 import MinPriceInput from './components/minPrice'
 
-var PatientPage = React.createClass({
+var PatientView = React.createClass({
 	render: function () {
 		return (
 			<form>
@@ -18,4 +18,5 @@ var PatientPage = React.createClass({
 	}
 })
 
-export default PatientPage
+
+export default patientView

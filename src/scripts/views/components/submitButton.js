@@ -9,4 +9,4 @@ var SubmitButton = React.createClass({
 	}
 })
 
-export SubmitButton
+export default SubmitButton
