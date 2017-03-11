@@ -11,3 +11,5 @@ A 2016 VA study found that roughly 20 veterans a day commit suicide. A recurring
 
 ##COMMUNITY IMPACT
 The goal of this project to connect veterans with the affordable mental health care that they need and deserve. We want to show veterans that there are resources out there to help them and that they shouldn’t be discouraged from moving forward with their lives.
+
+#PATRICK LIVES HERE
