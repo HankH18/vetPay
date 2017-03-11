@@ -12,7 +12,7 @@ const MinPriceInput = React.createClass({
 	render: function (){
 		return (
 			<div className="form-group">
-				<label for="name">Minimum Expenditure</label>
+				<label htmlFor="name">Minimum Expenditure</label>
 				<input type="Patient Name" className="form-control" placeholder="Full Name" onKeyDown={this._handleKeyDown} />
 			</div>
 			)
