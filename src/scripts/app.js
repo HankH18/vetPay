@@ -4,6 +4,8 @@ import Backbone from 'backbone'
 import init from './init'
 import PatientPage from './views'
 
+var testOne = 'success'
+
 
 const app = function() {
   var vetRouter = Backbone.Router.extend({
