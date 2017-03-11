@@ -8,3 +8,5 @@ var SubmitButton = React.createClass({
 		)
 	}
 })
+
+export SubmitButton
