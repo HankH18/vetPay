@@ -12,7 +12,7 @@ const LocationInput = React.createClass({
 	render: function (){
 		return (
 			<div className="form-group">
-				<label for="name">Location</label>
+				<label htmlFor="name">Location</label>
 				<input type="Patient Name" className="form-control" placeholder="Full Name" onKeyDown={this._handleKeyDown} />
 			</div>
 			)

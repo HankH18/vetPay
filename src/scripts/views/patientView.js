@@ -1,5 +1,6 @@
 import React from 'react'
 import Backbone from 'backbone'
+
 import LocationInput from './components/location'
 import NameInput from './components/formInput'
 import MaxPriceInput from './components/maxPrice'
@@ -18,4 +19,6 @@ var PatientView = React.createClass({
 	}
 })
 
+
 export default PatientView
+

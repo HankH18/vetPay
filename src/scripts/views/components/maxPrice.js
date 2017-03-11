@@ -12,12 +12,13 @@ const MaxPriceInput = React.createClass({
 	render: function (){
 		return (
 			<div className="form-group">
-				<label for="name">Maximum Expenditure</label>
+				<label htmlFor="name">Maximum Expenditure</label>
 				<input type="Patient Name" className="form-control" placeholder="Full Name" onKeyDown={this._handleKeyDown} />
 			</div>
 			)
 	}
 
 })
+
 
 export default MaxPriceInput

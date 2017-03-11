@@ -13,23 +13,24 @@ import SubmitButton from './views/components/submitButton'
 import PatientView from './views/patientView'
 
 
-var specialties = ['abuse', 'addiction', 'behavioral', 'bipolar', 'condependency', 'depression', 'drug abuse', 'impulse control', 'mental deficiency', 'phobia', 'schizophrenia', 'insomnia']
-
-var specialtiesList = specialties.map((specialty) =>
-	<li>{specialty}</li>
-	);
 
 
 const app = function() {
-  var vetRouter = Backbone.Router.extend({
-  	routes: {
-  	"patient": "patientView"
-  },
-  patientView: function (){
-  	ReactDOM.render(<PatientPage />, document.querySelector('.container'))
-  }
+  var VetRouter = Backbone.Router.extend({
+    	routes: {
+    	 "patient": "patientView",
+       "*default": "redirect"
+       },
+    patientView: function (){
+    	ReactDOM.render(<PatientView />, document.querySelector('.container'))
+    },
 
+    redirect: function() {
+      location.hash = 'patient'
+    }
   })
+  new VetRouter
+  Backbone.history.start()
 }
 // x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..
 // NECESSARY FOR USER FUNCTIONALITY. DO NOT CHANGE. 
