@@ -13,8 +13,6 @@ import SubmitButton from './views/components/submitButton'
 import PatientView from './views/patientView'
 
 
-
-
 var specialties = ['abuse', 'addiction', 'behavioral', 'bipolar', 'condependency', 'depression', 'drug abuse', 'impulse control', 'mental deficiency', 'phobia', 'schizophrenia', 'insomnia']
 
 var specialtiesList = specialties.map((specialty) =>
