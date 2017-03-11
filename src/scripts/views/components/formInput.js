@@ -12,9 +12,11 @@ var FormInput = React.createClass({
 	render: function (){
 		return (
 			<div className="form-group">
-				<label for="name">
+				<label for="name"/>
 			</div>
 			)
 	}
 
 })
+
+export default FormInput

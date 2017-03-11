@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import Backbone from 'backbone'
 import init from './init'
 import PatientPage from './views/patientView'
+import FormInput from './views/components/formInput'
 
 var testOne = 'success'
 
